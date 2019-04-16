@@ -4,12 +4,6 @@ class Person
     def initialize(name)
         @name = name
     end
-    # def getName
-    #     @name
-    # end
-    # def setName(newName)
-    #     @name = newName
-    # end
 end
 
 p = Person.new('Polatouche')
