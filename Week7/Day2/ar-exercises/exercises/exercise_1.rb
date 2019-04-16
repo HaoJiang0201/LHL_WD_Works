@@ -5,9 +5,6 @@ puts "----------"
 
 # Your code goes below here ...
 
-class Store < ActiveRecord::Base 
-end
-
 store1 = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
 puts "Burnaby added to the db..."
 
@@ -22,4 +19,4 @@ puts "Richmond added to the db..."
 store3 = Store.create(name: "Gastown", annual_revenue: 190000, mens_apparel: true, womens_apparel: false)
 puts "Gastown added to the db..."
 
-puts "Store.count
+puts "Totally #{Store.count} stores in the db..."
